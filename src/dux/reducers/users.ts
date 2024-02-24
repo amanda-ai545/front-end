@@ -8,13 +8,8 @@ import { UsersState } from '@types';
 export const name = 'users';
 
 export const getAllUsers = createAsyncThunk(`${name}/getAllUsers`, async () => {
-  try {
-    const { data } = await axios.get(`${BASE_URL}/users?page=1`);
-
-    return data;
-  } catch (err) {
-    console.log(err);
-  }
+  const { data } = await axios.get(`${BASE_URL}/users?page=1`);
+  return data;
 });
 
 const initialState: UsersState = {
@@ -43,7 +38,7 @@ const usersReducer = createSlice({
         first_name: action.payload.name,
         last_name: `Doe`,
         job: action.payload.job,
-        avatar: `https://placehold.co/100x100`,
+        avatar: `https://placehold.co/135x135`,
       };
       state.data.data.push(newUser);
     },

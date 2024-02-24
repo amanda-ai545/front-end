@@ -4,6 +4,8 @@ This project is a React application designed to interact with a Node.js backend,
 and efficient state management. The application serves as a user management system, providing functionalities to display
 and manage a list of users. Users can be viewed and add through the user-friendly interface.
 
+<img width="974" alt="Screenshot 2024-02-24 at 6 11 33 PM" src="https://github.com/amanda-ai545/front-end/assets/84690445/4fd32823-af4c-43d3-a1cf-c9e5c910330b">
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
@@ -20,6 +22,10 @@ Make sure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/) (v14 or later)
 - [PNPM](https://pnpm.io/) (Install globally: `npm install -g pnpm`)
+
+Make sure you have cloned and run the back-end to your machine:
+
+- back-end - [https://github.com/amanda-ai545/back-end](https://github.com/amanda-ai545/back-end)
 
 ### Installation
 

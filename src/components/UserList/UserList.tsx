@@ -21,7 +21,7 @@ const UserList: FC = () => {
   });
 
   const loadData = async () => {
-    dispatch(getAllUsers());
+    dispatch(getAllUsers() as any);
   };
 
   const handleChange = (name: string, value: string) => {

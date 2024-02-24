@@ -14,7 +14,7 @@ type Props = {
 const Card: FC<Props> = ({ src, name, job, workOrders, tasks, roles }) => {
   return (
     <div className="card grid justify-items-center p-5 bg-white rounded-lg shadow-lg shadow-gray-200">
-      <img src={src} alt={name} className="mb-4 border-4 border-solid border-sky-100 rounded-full" />
+      <img src={src} alt={name} className="mb-4 border-4 border-solid border-sky-100 rounded-full w-[135px]" />
 
       <div className="user-details__area text-center">
         <h3>{name}</h3>
